@@ -1770,6 +1770,22 @@ html:not(.mobile) .wow-p{
     width: auto;
     max-height: 80%;
 }
+.nav-logo-wrap .logo .logo-text{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 1;
+}
+.main-nav.dark .logo .logo-text{
+    color: #ffffff;
+}
+.main-nav.dark.stick-fixed .logo .logo-text,
+.main-nav.light .logo .logo-text{
+    color: inherit;
+}
 .nav-logo-wrap .logo:before,
 .nav-logo-wrap .logo:after{
     display: none;
@@ -6417,23 +6433,9 @@ table.shopping-cart-table tr td{
     text-align: left ;
     list-style-position: outside;   
 }
-.case-study.cl-ppc .count-descr {
-    font-size: 36px;
-    line-height: 1.1;
-    padding-bottom: 16px
-}
 .case-study .count-number span {
     font-size:.8em;
     opacity:.25;
-}
-
-.case-study .clmobile {
-    margin-top:-13%
-}
-@media screen and (max-width: 991.98px) {
-    .case-study .clmobile {
-        margin-top:-5%
-    }
 }
 @media screen and (max-width: 574.98px) {
     /* Styles for mobile devices */
@@ -6446,9 +6448,6 @@ table.shopping-cart-table tr td{
     .case-study .journey, .case-study .count-wrapper {
     width: 80%;
     margin: 0 auto;
-    }
-    .case-study .clmobile {
-        margin-top:-5%
     }
   }
 
